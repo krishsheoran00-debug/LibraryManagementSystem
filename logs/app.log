@@ -1,0 +1,7 @@
+[2026-09-17T16:28:44.343982] [INFO] Application started
+[2026-09-17T16:28:44.371407300] [INFO] Book added: ISBN001 - Effective Java
+[2026-09-17T16:28:44.372407200] [INFO] Book added: ISBN002 - Clean Code
+[2026-09-17T16:28:44.374409700] [INFO] Book added: ISBN003 - The Hobbit
+[2026-09-17T16:28:44.419585500] [INFO] Member added: M001 - Aditi Sharma
+[2026-09-17T16:28:44.420600700] [INFO] Member added: M002 - Rahul Verma
+[2026-09-17T16:31:35.970900400] [INFO] Issued ISBN003 to member M002 (txn T0001)
