@@ -35,8 +35,7 @@ are noted as future enhancements.
 - **Library administrators**, who may review reports (overdue books,
   popular titles) to make purchasing or policy decisions.
 
-*(The current version is a single-user console tool for library staff;
-member self-service is a future enhancement.)*
+
 
 ## High-Level Features
 
