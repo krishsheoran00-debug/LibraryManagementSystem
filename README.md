@@ -25,8 +25,7 @@ interface, backed by CSV file persistence so data survives between runs.
   - Per-member activity report (loan history, current fine).
 - **Persistence**: all data (books, members, transactions) is stored in
   human-readable CSV files under `data/`, so no external database is required.
-- **Logging**: every add/issue/return/error is timestamped and appended to
-  `logs/app.log` for auditability.
+Logging: application events are timestamped and recorded during runtime for auditability.
 - **Validation & error handling**: custom checked exceptions
   (`BookNotFoundException`, `MemberNotFoundException`,
   `BookNotAvailableException`, `InvalidTransactionException`) are used
@@ -69,7 +68,7 @@ LibraryManagementSystem/
 │       ├── FileHandler.java
 │       └── AppLogger.java
 ├── data/                         # CSV data files (created at runtime)
-├── logs/                         # app.log (created at runtime)
+├── logs/                         # Runtime logs
 ├── README.md
 └── statement.md
 ```
