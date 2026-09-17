@@ -118,7 +118,4 @@ If you'd like automated tests, the `service.LibraryService` layer is
 dependency-injected with its DAOs, so it can be unit-tested with JUnit by
 passing in DAOs pointed at temporary CSV files.
 
-## Screenshots
 
-*(Add screenshots of the console menu and a sample issue/return flow here
-before submission.)*
